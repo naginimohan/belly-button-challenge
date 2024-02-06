@@ -27,9 +27,7 @@ d3.json(url).then(function(data) {
             .text(id)
             .property("value",id);
         });
-    });
-
-    // Set the first sample from the list
+           // Set the first sample from the list
     let sample_one = names[0];
 
     // Log the value of sample_one
@@ -40,8 +38,7 @@ d3.json(url).then(function(data) {
     buildBarChart(sample_one);
     buildBubbleChart(sample_one);
     buildGaugeChart(sample_one);
-
-
+    });
   }
 
 // Function that populates metadata info
